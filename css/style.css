@@ -1,0 +1,150 @@
+/*1. Các định dạng chung*/ 
+
+body {
+    margin-top: 20px; padding: 0;
+	background: #d1ebf0;
+	text-align: justify;
+	font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+	font-size:  30px;
+	color: white;
+    background: url('../img/background.png');
+}
+
+h1, h2, h3 {
+	color: rgb(36, 33, 34);
+}
+
+a {
+	text-decoration: none;	color: #8C0209;	/* đỏ*/
+}
+a:hover {
+	border-bottom: none;
+}
+a img {
+	border: none;
+}
+
+#wrapper{
+    margin:auto;
+	width:1000px;	/* canh chiều ngang của nội dung trang web */
+}
+
+
+/*HEADER - LOGO*/
+#header {
+    width: 1000px; height: 270px; margin-bottom: 15px;
+    background: #f7f4f4;    
+    border-top-left-radius:30px; /*bo góc*/   
+}
+
+#logo {        
+    background-color:rgb(250, 9, 9);
+    width: 650px; height: 80px;    
+    padding-left: 60px; margin-left: 20px; 
+    float: left;
+    background: url('../img/Logo.jpg') no-repeat left center;
+}
+
+#logo h1 {
+    float: left; margin: 0 auto;
+    padding-left: 30px;
+    font-weight: normal; letter-spacing: 2px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px #ec559b;    
+}
+
+#logo p {    
+    float: left; padding: 40px 0 0 3px; margin: 0 auto;
+    font-size: 22pt; font-weight: bold; color: #fd2bdafa; 
+}
+
+#login{
+    font-size: 15px;
+	color:rgb(252, 8, 240);
+	font-weight:bold;
+	position:absolute;			/* set vị trí tuyệt đối cho khung login_nav */
+    margin-left: 780px;
+    margin-top: 10px;
+	text-align:right;
+}
+/*KẾT THÚC HEADER - LOGO - LOGIN*/
+
+
+/*FOOTER*/
+#footer {
+    clear: both;
+    width: 960px; height: 70px; margin: 0 auto;
+    padding: 0 20px;
+    background-color: #222f3d;
+	border-top: 2px solid #50488d;
+}
+#footer p.copyright {
+    font-size: 12px;
+    margin: 0; padding: 20px 0 0 0;
+    text-align: center;
+    float: left;
+}
+#footer p.link {
+    float: right;
+}
+
+
+/**/
+#sidebar{
+    float: left;
+    height: 600px;
+    width: 250px; padding-bottom: 10px;
+    background-color: #FFCCFF;
+    margin-bottom:10px;
+    -moz-border-radius-topleft:20px;
+    -webkit-border-radius-topleft:20px;
+    -ms-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-radius-bottomright:20px;
+    -ms-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+}
+
+#sidebar dt{ 
+    margin-top: -30px;	
+    height: 30px; font-weight: bold;
+    padding: 15px 0px 10px 20px;
+    color: #FFFFFF; font-size:13pt;
+      /* CSS3 */ 
+    -moz-border-radius-topleft:20px;
+    -webkit-border-radius-topleft:20px;
+    -ms-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-radius-bottomright:20px;
+    -ms-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+     /* Gradient */
+    background: -webkit-linear-gradient(#eca4e0, #fc08bf); /* For Safari */
+    background: -o-linear-gradient(#eca4e0, #fc08bf); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eca4e0, #fc08bf); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eca4e0, #fc08bf); /* Standard syntax (must be last) */
+   
+} 
+
+
+#content{
+    
+    float:right;
+    width: 740px;
+    height: 610px;
+    margin: 0 auto;
+    background-color: white;
+    -moz-border-radius-topleft:20px;
+    -webkit-border-radius-topleft:20px;
+    -ms-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-radius-bottomright:20px;
+    -ms-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+}
+
+/*CONTENT*/
+
